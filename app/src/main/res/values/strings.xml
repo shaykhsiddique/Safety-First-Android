@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Safety First</string>
+    <string name="title_activity_check_location">Map</string>
+    <string-array name="quotes">
+        <item>“SAFETY\n FIRST\n IS SAFETY\n ALWAYS”</item>
+    </string-array>
+
+
+</resources>

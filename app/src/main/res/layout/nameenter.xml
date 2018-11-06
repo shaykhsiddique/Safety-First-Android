@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/btncolor_templat">
+          <RelativeLayout
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:id="@+id/entryCarry"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:orientation="vertical"
+                  android:gravity="center">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="Address"
+                      android:textStyle="bold"
+                      android:padding="6dp"
+                      android:gravity="center"
+                      android:textColor="#ffffff"
+                      android:background="@color/colorPrimary"
+                      android:textSize="35sp"
+                      android:layout_margin="5dp"
+                      />
+                  <EditText
+                      android:id="@+id/name"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentLeft="true"
+                      android:hint="Type name"
+                      android:layout_alignParentStart="true"
+                      android:layout_alignParentTop="true" />
+
+                  <EditText
+                      android:id="@+id/phone"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentLeft="true"
+                      android:layout_alignParentStart="true"
+                      android:hint="Type Number"
+                      android:layout_below="@+id/name"
+                      android:layout_alignParentTop="true"
+                      android:ems="10"
+                      android:inputType="phone" />
+                  <Button
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/addtoList"
+                      android:minWidth="100dp"
+                      android:text="Add to List"
+                      android:layout_margin="5dp"
+                      android:background="@drawable/circlebutton"
+                      android:padding="2dp"/>
+              </LinearLayout>
+
+          </RelativeLayout
+              >
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
